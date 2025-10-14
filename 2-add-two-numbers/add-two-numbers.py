@@ -20,13 +20,12 @@ class Solution(object):
                 zmienna=int(str(suma)[0])
                 suma-=zmienna*10
                 obecny.next=ListNode(suma)
-                obecny=obecny.next
+                obecny=obecny.next 
             else:
                 obecny.next=ListNode(suma)
                 obecny=obecny.next
             if Li1: Li1=Li1.next
             if Li2: Li2=Li2.next    
-            print(suma)
         if(zmienna!=0):
             obecny.next=ListNode(zmienna)
         return tab.next
