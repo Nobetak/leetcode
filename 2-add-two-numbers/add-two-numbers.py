@@ -21,13 +21,11 @@ class Solution(object):
                 suma-=zmienna*10
                 obecny.next=ListNode(suma)
                 obecny=obecny.next
-                if Li1: Li1=Li1.next
-                if Li2: Li2=Li2.next
             else:
-                if Li1: Li1=Li1.next
-                if Li2: Li2=Li2.next
                 obecny.next=ListNode(suma)
                 obecny=obecny.next
+            if Li1: Li1=Li1.next
+            if Li2: Li2=Li2.next    
             print(suma)
         if(zmienna!=0):
             obecny.next=ListNode(zmienna)
