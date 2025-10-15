@@ -6,7 +6,7 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: float
         """   
-     # tworze zmienna
+        
         tab=[]
         tab=nums1
         tab+=nums2
