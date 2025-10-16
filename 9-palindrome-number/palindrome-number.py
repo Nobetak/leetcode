@@ -6,7 +6,6 @@ class Solution(object):
         """
         palindrom=str(x)
         palindrom1=palindrom[::-1]
-        print(palindrom1)
         if(palindrom==palindrom1):
             return True
         else:
