@@ -4,9 +4,9 @@ class Solution(object):
         :type x: int
         :rtype: bool
         """
-        palindrom=str(x)
-        palindrom1=palindrom[::-1]
-        if(palindrom==palindrom1):
+        x1=str(x)
+        x2=x1[::-1]
+        if(x2==x1):
             return True
         else:
             return False
